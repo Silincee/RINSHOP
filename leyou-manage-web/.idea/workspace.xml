@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="883d492c-03f8-4827-9193-18bbd4416ec6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../rinshop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-gateway/src/main/java/com/rinship/gateway/config/RinShopCorsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-interface/src/main/java/com/rinshop/item/pojo/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/service/CategoryService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/item/Category.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/item/Category.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rinshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/RinShopItemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/RinShopItemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/target/classes/com/rinshop/RinShopItemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/target/classes/com/rinshop/RinShopItemApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rinshop/笔记/day04-乐优商城项目搭建.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rinshop/笔记/day05-vue入门.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../rinshop/笔记/day06-商品分类.pdf" beforeDir="false" />
@@ -36,20 +44,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
+            <state relative-caret-position="1125">
               <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/src/mockDB.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="-33537" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/item/Category.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="35" selection-start-column="35" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -112,6 +136,8 @@
         <option value="$PROJECT_DIR$/src/pages/Layout.vue" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/build/webpack.dev.conf.js" />
+        <option value="$PROJECT_DIR$/src/pages/item/Category.vue" />
+        <option value="$PROJECT_DIR$/src/config.js" />
       </list>
     </option>
   </component>
@@ -121,7 +147,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="294" />
     <option name="y" value="112" />
     <option name="width" value="1300" />
@@ -172,7 +198,7 @@
               <item name="leyou-manage-web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leyou-manage-web" type="b2602c69:ProjectViewProjectNode" />
@@ -306,16 +332,15 @@
       <updated>1529574833622</updated>
       <workItem from="1529574835469" duration="3031000" />
       <workItem from="1595153248043" duration="269000" />
-      <workItem from="1595153519981" duration="2681000" />
+      <workItem from="1595153519981" duration="4336000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5981000" />
+    <option name="totallyTimeSpent" value="7636000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13006845" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -331,7 +356,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.23564357" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23564357" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
@@ -427,13 +452,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/item/Category.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="808">
@@ -507,8 +525,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
+        <state relative-caret-position="1125">
           <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mockDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33537" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/item/Category.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
         </state>
       </provider>
     </entry>
