@@ -19,9 +19,19 @@ public class RinShopCorsConfiguration {
         //初始化cors配置对象
         CorsConfiguration corsConfiguration = new CorsConfiguration();
         // 允许跨域的域名，如果要携带cookie，不能写*(代表所有的域名都可以跨域访问)
+//        corsConfiguration.addAllowedOrigin("http://localhost:9001/");
         corsConfiguration.addAllowedOrigin("http://manage.rinshop.com");
         corsConfiguration.setAllowCredentials(true); // 允许携带cookie
-        corsConfiguration.addAllowedMethod("*"); // 代表支持所有的请求方式
+
+        //3) 允许的请求方式
+        corsConfiguration.addAllowedMethod("OPTIONS");
+        corsConfiguration.addAllowedMethod("HEAD");
+        corsConfiguration.addAllowedMethod("GET");
+        corsConfiguration.addAllowedMethod("PUT");
+        corsConfiguration.addAllowedMethod("POST");
+        corsConfiguration.addAllowedMethod("DELETE");
+        corsConfiguration.addAllowedMethod("PATCH");
+
         corsConfiguration.addAllowedHeader("*"); // 允许携带任何头信息
         // 初始化cors配置源对象
         UrlBasedCorsConfigurationSource corsConfigurationSource = new UrlBasedCorsConfigurationSource();

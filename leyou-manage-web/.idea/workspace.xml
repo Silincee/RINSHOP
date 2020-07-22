@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="883d492c-03f8-4827-9193-18bbd4416ec6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-gateway/src/main/java/com/rinship/gateway/config/RinShopCorsConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-interface/src/main/java/com/rinshop/item/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-common/src/main/java/com/rinshop/common/pojo/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-interface/src/main/java/com/rinshop/item/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/service/BrandService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/item/Category.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/item/Category.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rinshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/RinShopItemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/RinShopItemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/target/classes/com/rinshop/RinShopItemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/target/classes/com/rinshop/RinShopItemApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rinshop/笔记/day04-乐优商城项目搭建.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rinshop/笔记/day05-vue入门.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rinshop/笔记/day06-商品分类.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rinshop/rinshop-gateway/src/main/java/com/rinship/gateway/config/RinShopCorsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/rinshop-gateway/src/main/java/com/rinship/gateway/config/RinShopCorsConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/config/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -55,9 +49,7 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mockDB.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-33537" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -90,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
+            <state relative-caret-position="25">
               <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -112,7 +104,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/Dashboard.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-962">
+            <state relative-caret-position="825">
               <caret line="33" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
             </state>
           </provider>
@@ -148,10 +140,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="294" />
-    <option name="y" value="112" />
-    <option name="width" value="1300" />
-    <option name="height" value="807" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -333,16 +323,17 @@
       <workItem from="1529574835469" duration="3031000" />
       <workItem from="1595153248043" duration="269000" />
       <workItem from="1595153519981" duration="4336000" />
+      <workItem from="1595334597253" duration="1344000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7636000" />
+    <option name="totallyTimeSpent" value="8980000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13006845" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12954186" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -459,14 +450,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -476,38 +460,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/1.jpeg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Dashboard.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-962">
-          <caret line="33" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#140#161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -519,7 +471,7 @@
     <entry file="file://$PROJECT_DIR$/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -531,14 +483,44 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mockDB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33537" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/item/Category.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#140#161#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Dashboard.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>

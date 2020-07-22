@@ -65,5 +65,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
+        <!--引入common工程 -->
+        <dependency>
+            <groupId>com.rinshop.common</groupId>
+            <artifactId>rinshop-common</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>

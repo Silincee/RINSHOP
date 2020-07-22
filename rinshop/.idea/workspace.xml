@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8302d2c8-dd58-4d56-b5fd-e15049496124" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rinshop-gateway/src/main/java/com/rinship/gateway/config/RinShopCorsConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-interface/src/main/java/com/rinshop/item/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rinshop-common/src/main/java/com/rinshop/common/pojo/PageResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-interface/src/main/java/com/rinshop/item/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/service/BrandService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou-manage-web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-manage-web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-manage-web/src/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-manage-web/src/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/Category.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-manage-web/src/pages/item/Category.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rinshop-item/rinshop-item-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-interface/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/RinShopItemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/RinShopItemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/target/classes/com/rinshop/RinShopItemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/target/classes/com/rinshop/RinShopItemApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记/day04-乐优商城项目搭建.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记/day05-vue入门.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记/day06-商品分类.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rinshop-gateway/src/main/java/com/rinship/gateway/config/RinShopCorsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/rinshop-gateway/src/main/java/com/rinship/gateway/config/RinShopCorsConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,8 +132,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.RinShopGatewayApplication" />
-        <item itemvalue="Spring Boot.RinShopRegistryApplication" />
         <item itemvalue="Spring Boot.RinShopItemApplication" />
+        <item itemvalue="Spring Boot.RinShopRegistryApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +144,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@558250ce" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7da01ca3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -177,6 +171,9 @@
       <workItem from="1595133899034" duration="4507000" />
       <workItem from="1595140155143" duration="17000" />
       <workItem from="1595156659901" duration="5057000" />
+      <workItem from="1595310486858" duration="621000" />
+      <workItem from="1595334572033" duration="6154000" />
+      <workItem from="1595380793674" duration="1418000" />
     </task>
     <servers />
   </component>
@@ -188,7 +185,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
