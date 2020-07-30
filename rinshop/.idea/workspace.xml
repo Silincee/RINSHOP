@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8302d2c8-dd58-4d56-b5fd-e15049496124" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/rinshop-common/src/main/java/com/rinshop/common/pojo/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-interface/src/main/java/com/rinshop/item/pojo/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/controller/BrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rinshop-upload/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rinshop-upload/src/main/java/com/rinshop/RinShopUploadApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rinshop-upload/src/main/java/com/rinshop/upload/config/RinShopCorsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rinshop-upload/src/main/java/com/rinshop/upload/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rinshop-upload/src/main/java/com/rinshop/upload/service/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rinshop-upload/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../leyou-manage-web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../leyou-manage-web/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rinshop-gateway/src/main/java/com/rinship/gateway/config/RinShopCorsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/rinshop-gateway/src/main/java/com/rinship/gateway/config/RinShopCorsConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/mapper/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../笔记/day06-商品分类.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../笔记/day07-品牌查询.pdf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,6 +67,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rinshop.upload.config" />
+    </key>
   </component>
   <component name="RestServicesNavigator">
     <treeState>
@@ -124,7 +136,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RinShopUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rinshop-upload" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rinshop.RinShopUploadApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Spring Boot.RinShopUploadApplication" />
       <item itemvalue="Spring Boot.RinShopRegistryApplication" />
       <item itemvalue="Spring Boot.RinShopGatewayApplication" />
       <item itemvalue="Spring Boot.RinShopItemApplication" />
@@ -140,13 +160,9 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
+        <option name="contentProportion" value="0.1881081" />
         <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7da01ca3" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
+          <expand />
           <select />
         </treeState>
       </serviceView>
@@ -174,6 +190,13 @@
       <workItem from="1595310486858" duration="621000" />
       <workItem from="1595334572033" duration="6154000" />
       <workItem from="1595380793674" duration="1418000" />
+      <workItem from="1595426909173" duration="2000" />
+      <workItem from="1595593920074" duration="3707000" />
+      <workItem from="1595748464212" duration="1836000" />
+      <workItem from="1596026359542" duration="2618000" />
+      <workItem from="1596030128247" duration="2241000" />
+      <workItem from="1596033531514" duration="89000" />
+      <workItem from="1596072317986" duration="1571000" />
     </task>
     <servers />
   </component>

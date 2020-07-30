@@ -4,12 +4,16 @@ import com.rinshop.common.pojo.PageResult;
 import com.rinshop.item.pojo.Brand;
 import com.rinshop.item.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+
+import java.util.List;
 
 /**
  * @program: rinshop
@@ -47,5 +51,17 @@ public class BrandController {
     }
 
 
+    /**
+     * @description: 新增品牌
+     * @param: [brand, cids]
+     * @return: void
+     * @author: Silince
+     * @date: 2020-07-24
+     */
+    @PostMapping
+    public ResponseEntity<Void> saveBrand(Brand brand, @RequestParam("cids")List<Long> cids){
+        this.brandService.saveBrand(brand,cids);
+        return ResponseEntity.status(HttpStatus.CREATED).build();
+    }
 
 }

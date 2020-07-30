@@ -13,6 +13,7 @@
         <module>rinshop-gateway</module>
         <module>rinshop-item</module>
         <module>rinshop-common</module>
+        <module>rinshop-upload</module>
     </modules>
 
     <name>rinshop</name>

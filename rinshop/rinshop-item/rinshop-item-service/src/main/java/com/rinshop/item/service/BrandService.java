@@ -7,6 +7,7 @@ import com.rinshop.item.mapper.BrandMapper;
 import com.rinshop.item.pojo.Brand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import tk.mybatis.mapper.entity.Example;
 import tk.mybatis.mapper.util.StringUtil;
 
@@ -24,25 +25,25 @@ public class BrandService {
     private BrandMapper brandMapper;
 
     /**
-    * @description: 根据查询条件分页并排序查询品牌信息
-    * @param: [key, page, rows, sortBy, desc]
-    * @return: com.rinshop.common.pojo.PageResult<com.rinshop.item.pojo.Brand>
-    * @author: Silince
-    * @date: 2020-07-21
-    */
+     * @description: 根据查询条件分页并排序查询品牌信息
+     * @param: [key, page, rows, sortBy, desc]
+     * @return: com.rinshop.common.pojo.PageResult<com.rinshop.item.pojo.Brand>
+     * @author: Silince
+     * @date: 2020-07-21
+     */
     public PageResult<Brand> queryBrandByPage(String key, Integer page, Integer rows, String sortBy, boolean desc) {
         // 初始化example对象
         Example example = new Example(Brand.class);
         Example.Criteria criteria = example.createCriteria();
         // 根据name模糊查询或根据首字母查询
-        if (StringUtil.isNotEmpty(key)){
-            criteria.andLike("name","%"+key+"%").orEqualTo("letter",key);
+        if (StringUtil.isNotEmpty(key)) {
+            criteria.andLike("name", "%" + key + "%").orEqualTo("letter", key);
         }
         // 添加分页条件
-        PageHelper.startPage(page,rows);
+        PageHelper.startPage(page, rows);
         // 添加排序条件
-        if (StringUtil.isNotEmpty(sortBy)){
-            example.setOrderByClause(sortBy+" "+(desc?"desc":"asc"));
+        if (StringUtil.isNotEmpty(sortBy)) {
+            example.setOrderByClause(sortBy + " " + (desc ? "desc" : "asc"));
         }
 
         List<Brand> brands = brandMapper.selectByExample(example);
@@ -50,5 +51,24 @@ public class BrandService {
         PageInfo<Brand> pageInfo = new PageInfo<>(brands);
         // 包装成分页结果集返回
         return new PageResult<>(pageInfo.getTotal(), pageInfo.getList());
+    }
+
+    /**
+     * @description: 新增品牌
+     * @param: [brand, cids]
+     * @return: void
+     * @author: Silince
+     * @date: 2020-07-24
+     */
+    @Transactional
+    public void saveBrand(Brand brand, List<Long> cids) {
+        // 先新增brand
+        brandMapper.insertSelective(brand);
+        // 再新增中间表
+
+        cids.forEach(cid -> {
+            brandMapper.insertCategoryAndBrand(cid, brand.getId());
+        });
+
     }
 }

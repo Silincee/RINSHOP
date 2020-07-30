@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="883d492c-03f8-4827-9193-18bbd4416ec6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-common/src/main/java/com/rinshop/common/pojo/PageResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-interface/src/main/java/com/rinshop/item/pojo/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/controller/BrandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-upload/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-upload/src/main/java/com/rinshop/RinShopUploadApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-upload/src/main/java/com/rinshop/upload/config/RinShopCorsConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-upload/src/main/java/com/rinshop/upload/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-upload/src/main/java/com/rinshop/upload/service/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../rinshop/rinshop-upload/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rinshop/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rinshop/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../rinshop/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rinshop/rinshop-gateway/src/main/java/com/rinship/gateway/config/RinShopCorsConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/rinshop-gateway/src/main/java/com/rinship/gateway/config/RinShopCorsConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rinshop/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/mapper/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/mapper/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rinshop/rinshop-item/rinshop-item-service/src/main/java/com/rinshop/item/service/BrandService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,15 +25,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/router/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="9" selection-start-column="9" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/index.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -61,11 +57,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/config.js">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="35" selection-start-column="35" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/item/BrandForm.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="74" column="36" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -139,7 +144,8 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-1920" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
@@ -324,16 +330,19 @@
       <workItem from="1595153248043" duration="269000" />
       <workItem from="1595153519981" duration="4336000" />
       <workItem from="1595334597253" duration="1344000" />
+      <workItem from="1595594016671" duration="347000" />
+      <workItem from="1595748456790" duration="893000" />
+      <workItem from="1596030108554" duration="505000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8980000" />
+    <option name="totallyTimeSpent" value="10725000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12954186" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12848867" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -492,6 +501,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
@@ -524,10 +540,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/config.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/item/BrandForm.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        <state relative-caret-position="359">
+          <caret line="74" column="36" selection-start-line="74" selection-start-column="18" selection-end-line="74" selection-end-column="36" />
         </state>
       </provider>
     </entry>

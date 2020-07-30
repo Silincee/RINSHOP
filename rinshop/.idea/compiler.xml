@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rinshop-item-service" />
-        <module name="rinshop-registry" />
-        <module name="rinshop-common" />
         <module name="rinshop-item-interface" />
+        <module name="rinshop-common" />
         <module name="rinshop-gateway" />
+        <module name="rinshop-registry" />
+        <module name="rinshop-item-service" />
+        <module name="rinshop-upload" />
       </profile>
     </annotationProcessing>
   </component>
@@ -23,6 +24,7 @@
       <module name="rinshop-item-interface" options="-parameters" />
       <module name="rinshop-item-service" options="-parameters" />
       <module name="rinshop-registry" options="-parameters" />
+      <module name="rinshop-upload" options="-parameters" />
     </option>
   </component>
 </project>
